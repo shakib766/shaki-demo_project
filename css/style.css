@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style-type: none;
+}
+header{
+	background-color: #02918c;
+}
+header nav h1{
+	font-size: 26px;
+	font-weight: 800;
+	align-items: center;
+	text-transform: uppercase;
+	color: #ffff;
+	font-family: Open Sans;
+}
+header nav h1>span{
+	color: #cfc91d;
+}
+header nav ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Open Sans;
+	color: #ffff;
+	font-weight: 700;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
