@@ -5,23 +5,32 @@
 ul,ol{
 	list-style-type: none;
 }
+header .nav_part .navbar .navbar-nav .nav-item .nav-link{
+	padding: 0;
+}
+/* common css ends */
 header{
 	background-color: #02918c;
 }
-header nav h1{
+header .nav_part{
+	background-color: #02918c;
+}
+header .nav_part .navbar .navbar-brand{
 	font-size: 26px;
 	font-weight: 800;
 	align-items: center;
 	text-transform: uppercase;
 	color: #ffff;
 	font-family: Open Sans;
+	padding: 0;
 }
-header nav h1>span{
+header .nav_part .navbar .navbar-brand span{
 	color: #cfc91d;
 }
-header nav ul li a{
+header .nav_part .navbar .navbar-nav .nav-item .nav-link{
 	text-decoration: none;
 	font-size: 12px;
+	line-height: 60px;
 	font-family: Open Sans;
 	color: #ffff;
 	font-weight: 700;
