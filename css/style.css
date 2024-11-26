@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body a{
+	text-decoration: none;
+}
 ul,ol{
 	list-style-type: none;
 }
@@ -36,4 +39,114 @@ header .nav_part .navbar .navbar-nav .nav-item .nav-link{
 	font-weight: 700;
 	padding-left: 50px;
 	text-transform: uppercase;
+	transition: all 0.5s ease;
 }
+header .nav_part .navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #CFC91D;
+}
+/* header part ends here */
+.banner_part{
+	background: url(../images/MYFOLIO.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container .row .banner_content h4{
+	font-size: 1.875rem;
+	line-height: 25px;
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #ffff;
+	text-transform: capitalize;
+	margin-bottom: 0;
+	padding-top: 170px;
+}
+.container .row .banner_content h1{
+	font-size: 4.25rem;
+	line-height: 75px;
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #ffff;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+.container .row .banner_content p{
+	font-size: 1.125rem;
+	line-height: 22px;
+	font-family: Open Sans;
+	font-weight: 700;
+	color: #ffff;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+.container .row .banner_content img{
+	padding: 52px 0px;
+}
+.container .row .banner_content> .know_more{
+	font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 196px;
+    height: 47px;
+    background: #cfc91d;
+	border: 1px solid #0000;
+	margin-bottom: 150px;
+}
+/* banner part ends here */
+.about .container .row .about_us{
+	padding-bottom: 60px;
+}
+.about .container .row .about_us h1{
+	font-family: Open Sans;
+	font-size: 2.875rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #02918c;
+	margin-top: 50px;
+}
+.about .container .row .about_us> img{
+	margin: 30px 0px;
+}
+.about .container .row .about_us p{
+	font-size: 1rem;
+	line-height: 41px;
+	font-weight: 400;
+	font-family: Open sans;
+	text-transform: capitalize;
+	color: #7e8287;
+	padding: 0px 100px;
+}
+.about .container .row .about_us p> span{
+	font-size: 1.438rem;
+	font-weight: 600;
+	font-family: Open sans;
+	text-transform: capitalize;
+	color: #7e8287;
+}
+.about .container .row .about_content{
+	text-align: center;
+	padding: 0px 10px;
+	border-right: 1px solid #d9dbdb;
+}
+.about .container .row .about_content ul li> i{
+	font-size: 15px;
+	color: #02918c;
+}
+.about .container .row .about_content ul li a{
+	font-size: 1rem;
+	line-height: 23px;
+	font-family: Open sans;
+	padding: 10px 0px;
+	color: #7e8287;
+	display: block;
+}
+.about .container .row .about_content ul li p{
+	font-size: 11px;
+	line-height: 23px;
+	font-family: Open sans;
+	color: #7e8287;
+	padding: 0px 40px 30px 40px;
+}
+
+/* about_us part ends here */
