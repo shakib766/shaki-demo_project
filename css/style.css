@@ -5,6 +5,9 @@
 body a{
 	text-decoration: none;
 }
+button:focus{
+	outline: none;
+}
 ul,ol{
 	list-style-type: none;
 }
@@ -129,6 +132,9 @@ header .nav_part .navbar .navbar-nav .nav-item .nav-link:hover{
 	padding: 0px 10px;
 	border-right: 1px solid #d9dbdb;
 }
+.about .container .row #about_content{
+	border-right: none;
+}
 .about .container .row .about_content ul li> i{
 	font-size: 15px;
 	color: #02918c;
@@ -150,3 +156,215 @@ header .nav_part .navbar .navbar-nav .nav-item .nav-link:hover{
 }
 
 /* about_us part ends here */
+.service .service_bg{
+	background: url(../images/MYFOLIO1.png) no-repeat center;
+	background-size: cover;
+	margin-top: 80px;
+	padding-bottom: 50px;
+}
+.service_part .service_heading h1{
+	font-size: 46px;
+	padding: 60px 0px 20px 0px;
+	font-weight: 600;
+	font-family: Open sans;
+	color: #02918c;
+	text-transform: uppercase;
+}
+.service_part .service_heading p{
+	font-family: Open sans;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #7e8287;
+	padding: 20px 0px 40px 0px;
+}
+.service_part .service_content .serveice_globe a{
+	color: #02918c;
+	font-size: 20px;
+	padding-bottom: 5px;
+	display: block;
+}
+.service_part .service_content .serveice_globe h4{
+	font-family: Open sans;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 23px;
+	text-transform: capitalize;
+	color: #7e8287;
+	padding-bottom: 10px;
+}
+.service_part .service_content .serveice_globe p{
+	font-family: Open sans;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 21px;
+	text-transform: capitalize;
+	color: #7e8287;
+	padding-right: 20px;
+}
+/* service part ends here */
+.glary .container .row h1{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: Open sans;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #02918c;
+	font-size: 46px;
+}
+.glary .container .row p{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-family: Open sans;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #7e8287;
+	font-size: 16px;
+	line-height: 41px;
+}
+.glary .container .row .img_glary{
+	display: flex;
+	position: relative;
+}
+.glary .container .row .img_glary img{
+	width: 100%;
+	display: block;
+}
+.glary .container .row .img_glary .overlay{
+	width: 85%;
+	height: 85%;
+	background-color: rgba(2, 147, 155, 0);
+	position: absolute;
+    left: 0;
+    top: 0;
+    translate: 9% 9%;
+	opacity: 0;
+	transition: all ease 0.5s;
+	cursor: pointer;
+}
+.glary .container .row .img_glary:hover .overlay{
+	background-color: rgba(2, 147, 155, 0.8);
+	opacity: 1;
+}
+.glary .container .row .img_glary .overlay h4{
+	font-size: 16px;
+	line-height: 23px;
+	font-family: Open sans;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #ffff;
+	transform: translateY(74px);
+}
+.glary .container .row .img_glary .overlay>p{
+	font-size: 13px;
+	line-height: 21px;
+	font-family: Open sans;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #ffff;
+	transform: translateY(80px);
+}
+/* glary part ends here */
+.contact .container .row .contact_part h1{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: Open sans;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #02918c;
+	font-size: 46px;
+
+}
+.contact .container .row .contact_part p{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-family: Open sans;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #7e8287;
+	font-size: 16px;
+	line-height: 41px;
+}
+/* contant part ends here */
+.footer_part{
+	background: #0b0b0b;
+	overflow: hidden;
+}
+.footer_part .input_box input{
+	width: 80%;
+	height: 40px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #7e8287;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Open sans;
+	margin-bottom: 25px;
+	font-size: 16px;
+	line-height: 41px;
+}
+.footer_part .input_box2 input{
+	width: 100%;
+	height: 80px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-top: 1px solid #7e8287;
+	border-bottom: 1px solid #7e8287;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Open sans;
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 41px;
+}
+.footer_part .input_box2 span{
+	color: #757575;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Open sans;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.footer_part .input_box .btn{
+	width: 200px;
+	height: 50px;
+	background: #CFC91D;
+	color: #0b0b0b;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 0px;
+	margin-top: 30px;
+	transition: all ease 0.4s;
+	cursor: pointer;
+}
+.footer_part .input_box .btn:hover{
+	background: transparent;
+	color: #CFC91D;
+	border: 1px solid #cfc91d;
+}
+.footer_part .input_box input[type="email"]:focus
+{
+	box-shadow: 1px 0px 5px #cfc91d;
+}
+.footer_part .input_box input[type="text"]:focus{
+	box-shadow: 1px 0px 5px #cfc91d;
+}
+/* form part ends here */
+.copyright{
+	background-color: #282727;
+}
+.copyright .container .row span{
+	color: #7e8287;
+	font-size: 12px;
+	line-height: 60px;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+/* footer part ends here */

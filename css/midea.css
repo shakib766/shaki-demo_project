@@ -1,0 +1,18 @@
+@media (min-width: 768px){
+	.navbar-toggler[type="button"]{
+		border: 0;
+	}
+	.navbar-toggler:focus {
+		outline: 0;
+		box-shadow: none;
+	}
+	.navbar-nav {
+		text-align: center;
+	}
+	.nav_part .navbar .navbar-nav .nav-item>a{
+		line-height: 50px;
+	}
+}
+/* medium screen */
+/* sm screen */
+/* extra small */
